@@ -6,11 +6,11 @@
 
 Le domaine matérialise l'organigramme de RAID-A-PORTER : direction générale + 5 directions opérationnelles (Finance, Commerce, Technique, RH, Logistique) + direction Informatique, pour ~60 comptes utilisateurs.
 
-**3 contrôleurs de domaine** assurent la redondance des rôles FSMO et de la résolution DNS : `h-winserv-1`, `h-winserv-2`, `lap-winserv-1`.
 
-## Durcissement appliqué
+## [Durcissement appliqué](https://www.it-connect.fr/comment-creer-un-domaine-active-directory-respectueux-des-bonnes-pratiques-de-securite/#google_vignette)
 
 Le déploiement initial de l'AD a été **repris en cours de projet** pour appliquer les bonnes pratiques : compte d'administration nominatif distinct du compte par défaut, mot de passe fort sur le compte de délégation, stratégie de mots de passe robuste.
+
 
 ## Structuration des OU
 
