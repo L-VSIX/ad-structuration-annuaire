@@ -11,6 +11,8 @@ Le domaine matérialise l'organigramme de RAID-A-PORTER : direction générale +
 
 Le déploiement initial de l'AD a été **repris en cours de projet** pour appliquer les bonnes pratiques : compte d'administration nominatif distinct du compte par défaut, mot de passe fort sur le compte de délégation, stratégie de mots de passe robuste.
 
+<img width="1533" height="1000" alt="pingcastle" src="https://github.com/user-attachments/assets/fb2ac804-e6b2-47d7-b554-d412ad2f0d6a" />
+
 
 ## Structuration des OU
 
