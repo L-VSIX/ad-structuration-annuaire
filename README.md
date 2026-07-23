@@ -27,6 +27,7 @@ New-ADOrganizationalUnit -Name '110000_SCE_FINANCE' `
   -Path 'OU=Utilisateurs,OU=RAIDAPORTER,DC=raidaporter,DC=local' `
   -ProtectedFromAccidentalDeletion $true
 ```
+<img width="1149" height="655" alt="ad" src="https://github.com/user-attachments/assets/870c07d8-a18f-49fa-8ba5-2ca1c1af9bc6" />
 
 ## Incident résolu
 
