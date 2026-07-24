@@ -34,9 +34,9 @@ Un **renommage à chaud d'un contrôleur de domaine** n'est pas supporté et a n
 
 ## Repos liés
 
-- `ad-automatisation-powershell`
-- `dfs-architecture` — permissions NTFS alignées sur ces groupes
-- `orangehrm-gestion-comptes` — consommateur de l'annuaire
+- [`ad-automatisation-powershell`](https://github.com/L-VSIX/ad-automatisation-powershell)
+- [`dfs-architecture`](https://github.com/L-VSIX/dfs-architecture) — permissions NTFS alignées sur ces groupes
+- [`orangehrm-gestion-comptes`](https://github.com/L-VSIX/orangehrm-gestion-comptes) — consommateur de l'annuaire
 
 ## Auteur
 
