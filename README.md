@@ -15,7 +15,9 @@ Le déploiement initial de l'AD a été **repris en cours de projet** pour appli
 
 ## Structuration des OU
 
-L'OU racine `RAIDAPORTER` regroupe deux sous-OU : `Utilisateurs` et `Ordinateurs`. Chaque service métier possède sa propre OU, préfixée numériquement pour le tri, avec 3 groupes de sécurité :
+L'OU racine `RAIDAPORTER` regroupe des sous-OU : `Groupes`,`Serveurs`,`Utilisateurs` et `Ordinateurs`.
+L'OU `Groupes` rassemble les groupes applicatifs du systèmes d'informations. On y retrouve les sous-OU `Fichier` utilisé pour les groupes d'ayant droit et `Organigramme` utilisé pour structuré les utilisateurs d'après l'organigramme RH.
+Chaque service métier possède préfixée numériquement pour le tri, avec 3 groupes de sécurité :
 
 - `_R` (Responsable) — Responsable du service
 - `_M` (Membre) — Membre du service
