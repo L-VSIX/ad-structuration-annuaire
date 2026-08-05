@@ -17,9 +17,9 @@ Le déploiement initial de l'AD a été **repris en cours de projet** pour appli
 
 L'OU racine `RAIDAPORTER` regroupe deux sous-OU : `Utilisateurs` et `Ordinateurs`. Chaque service métier possède sa propre OU, préfixée numériquement pour le tri, avec 3 groupes de sécurité :
 
-- `_R` (Read) — lecture seule
-- `_M` (Modify) — lecture + modification
-- `_G` (Gestion) — administration des objets du service
+- `_R` (Responsable) — Responsable du service
+- `_M` (Membre) — Membre du service
+- `_G` (Gestionnaire) — Gestionnaire du service
 
 ```powershell
 New-ADOrganizationalUnit -Name '110000_SCE_FINANCE' `
